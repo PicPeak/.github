@@ -30,15 +30,34 @@ simple — while you keep full control over your data and branding.
 | Repo | What it is |
 |------|-----------|
 | [**picpeak**](https://github.com/PicPeak/picpeak) | The main application (backend + frontend) |
-<!-- Add docs / companion app / plugin repos here as they land -->
+| [**docs**](https://github.com/PicPeak/docs) | Documentation site sources ([docs.picpeak.app](https://docs.picpeak.app)) |
+<!-- Add companion app / plugin repos here as they land -->
 
 ### Get started
 
+Up and running in under 5 minutes with Docker:
+
 ```bash
+# 1. Clone
+git clone https://github.com/PicPeak/picpeak.git
+cd picpeak
+
+# 2. Copy the environment template — defaults work out of the box.
+#    Machine secrets (JWT, DB, Redis) are auto-generated on first run.
+cp .env.example .env
+
+# 3. Start
 docker compose up -d
+
+# 4. Open http://localhost:3000
 ```
 
-See the [documentation](https://docs.picpeak.app) for the full installation walkthrough.
+**First run — create your admin account:** open
+[http://localhost:3000/admin](http://localhost:3000/admin) (you'll be redirected
+to `/setup`), grab the one-time setup token from the logs
+(`docker compose logs backend | grep -i "setup token"`), then set your admin
+email + password. See the [documentation](https://docs.picpeak.app) for the full
+walkthrough, configuration, and production deployment.
 
 ### Try it first
 
