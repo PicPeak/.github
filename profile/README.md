@@ -73,4 +73,12 @@ removed without notice).
 - 🔒 [Security policy](https://github.com/PicPeak/.github/blob/main/SECURITY.md)
 - ☕ [Support the project](https://buymeacoffee.com/theluap)
 
-<div align="center"><sub>MIT licensed · Made for photographers, by developers</sub></div>
+<p align="center">
+  Made with ❤️ by photographers, for photographers
+  <br>
+  <a href="https://www.picpeak.app">Homepage</a> •
+  <a href="https://demo.picpeak.app">Live Demo</a> •
+  <a href="https://github.com/PicPeak/picpeak">GitHub</a> •
+  <a href="https://docs.picpeak.app">Documentation</a> •
+  <a href="https://github.com/PicPeak/picpeak/issues">Support</a>
+</p>
