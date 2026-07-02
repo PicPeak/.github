@@ -73,6 +73,8 @@ removed without notice).
 - 🔒 [Security policy](https://github.com/PicPeak/.github/blob/main/SECURITY.md)
 - ☕ [Support the project](https://buymeacoffee.com/theluap)
 
+---
+
 <p align="center">
   Made with ❤️ by photographers, for photographers
   <br>
