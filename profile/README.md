@@ -31,7 +31,8 @@ simple — while you keep full control over your data and branding.
 |------|-----------|
 | [**picpeak**](https://github.com/PicPeak/picpeak) | The main application (backend + frontend) |
 | [**docs**](https://github.com/PicPeak/docs) | Documentation site sources ([docs.picpeak.app](https://docs.picpeak.app)) |
-<!-- Add companion app / plugin repos here as they land -->
+| [**plugin-lightroom**](https://github.com/PicPeak/plugin-lightroom) | Lightroom Classic plugin — publish galleries and round-trip client proofing selections |
+<!-- Add companion app repos here as they land -->
 
 ### Get started
 
