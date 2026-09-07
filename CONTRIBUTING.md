@@ -187,6 +187,6 @@ See [RELEASING.md](RELEASING.md) for the full operational doc (promotion criteri
 
 - Create an [issue](https://github.com/PicPeak/picpeak/issues) for bugs or features
 - Join [discussions](https://github.com/PicPeak/picpeak/discussions) for questions
-- Security issues: Open a [security issue](https://github.com/PicPeak/picpeak/issues/new?labels=security) on GitHub
+- Security vulnerabilities: Follow the [security policy](SECURITY.md) to report privately in the affected repository or by email
 
 Thank you for contributing! 🎉
